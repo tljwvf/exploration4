@@ -1,0 +1,44 @@
+body {
+    background-color: rebeccapurple
+}
+
+h1 {
+    background-color: aquamarine
+}
+
+p {
+    padding: 10px;
+    background-color: aquamarine
+}
+
+.purple {
+    border: 5px 5px 5px 5px solid rebeccapurple !important;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: rebeccapurple;
+    font-size: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 50px auto;
+}
+
+h1 {
+    width: 100%;
+    bottom: 10%;
+    text-align: center;
+}
+
+button {
+    background-color: chartreuse;
+    text-align: center;
+    width: 15%;
+    height: 5%;
+    position: relative;
+    margin-top: 30%;
+    left: 50%;
+    right: 50%
+}
